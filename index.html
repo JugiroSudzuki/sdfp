@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.bodyCl {
+			background-color: red;
+			margin: 0;
+		}
+		.header {
+			height: 50px;
+			background-color: navy;
+		}
+		.cont {
+			margin-left: auto;
+			margin-right: auto;
+			width: 900px;
+			background-color: 
+		}
+		.headText {
+			color: brown;
+			margin-top: 0px;
+		}
+		.d_flex {
+			display: flex;
+		}
+		.block1 {
+			height: 500px;
+			width: 300px;
+			background-color: pink;
+		}
+		.block2 {
+			height: 500px;
+			width: 300px;
+			background-color: cyan;
+		}
+		.block3 {
+			height: 500px;
+			width: 300px;
+			background-color: green;
+		}
+		.img1 {
+			width: 300px;
+			margin-left: auto;
+			margin-right: auto;
+		}				
+		.img2 {
+			width: 300px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.img3 {
+			width: 300px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.link1 {
+			text-decoration: none;
+			color: white;
+		}
+		.link2 {
+			text-decoration: none;
+			color: red;
+		}
+		.link3 {
+			text-decoration: none;
+			color: cyan;
+		}
+		.btn1 {
+			background-color: yellow;
+			color: white;
+		}
+		.btn2 {
+			background-color: brown;
+		}
+		.btn3 {
+			background-color: pink;
+		}																		
+	</style>
+</head>
+<body class="bodyCl">
+	<!-- шапка -->
+	<div class="header">
+		<div class="cont">
+			<h1 class="headText">Новинки на рынке</h1>
+		</div>
+	</div>
+	<!-- контент -->
+	<div class="cont">
+		<div class="d_flex">	
+			<div class="block1">	
+				<img src="" class="img1">
+				<a href="" class="link1" >Перейти на официальный сайт</a>
+				<button class="btn1">предзаказ</button>			
+			</div>
+			<div class="block2">
+				<img src="" class="img2">
+				<a href=""  class="link2">Перейти на официальный сайт</a>
+				<button class="btn2">предзаказ</button>						
+			</div>
+			<div class="block3">
+				<img src="" class="img3">
+				<a href=""  class="link3">Перейти на официальный сайт</a>
+				<button class="btn3">предзаказ</button>							
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		document.querySelector('.bodyCl').style.backgroundColor = 'gray'  
+		document.querySelector('.header').style.backgroundColor = 'black'
+		document.querySelector('.headText').style.color = 'gray' 
+		document.querySelector('.cont').style.marginLeft = '1125px'
+		document.querySelector('.img1').src = '1.jpg'
+		document.querySelector('.img2').src = '2.jpg'
+		document.querySelector('.img3').src = '3.png'
+		document.querySelector('.link1').href = 'https://ru.wikipedia.org/wiki/Ghost_of_Tsushima'
+		document.querySelector('.link2').href = 'https://ru.wikipedia.org/wiki/Doom_(%D1%81%D0%B5%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80)'
+		document.querySelector('.link3').href = 'https://ru.wikipedia.org/wiki/Cyberpunk_2077'
+		document.querySelector('.img3').src = '3.png'
+		document.querySelector('.block1').style.backgroundColor = 'blue'
+		document.querySelector('.block2').style.backgroundColor = 'orange'
+		document.querySelector('.block3').style.backgroundColor = 'yellow'
+		document.querySelector('.btn1').style.backgroundColor = 'black'
+		document.querySelector('.btn2').style.backgroundColor = 'cyan'
+		document.querySelector('.btn3').style.backgroundColor = 'pink'
+		document.querySelector('.link1').style.marginLeft = '50px'
+		document.querySelector('.link2').style.marginLeft = '50px'
+		document.querySelector('.link3').style.marginLeft = '50px'
+
+	</script>
+</body>
+</html>
